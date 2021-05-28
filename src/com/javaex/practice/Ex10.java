@@ -17,9 +17,9 @@ public class Ex10 {
 		int num4 = sc.nextInt();
 		System.out.print("숫자: ");
 		int num5 = sc.nextInt();
-		
+			
 		
 		
 		sc.close();
 	}
-
+}

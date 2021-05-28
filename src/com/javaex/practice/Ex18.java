@@ -2,32 +2,24 @@ package com.javaex.practice;
 
 import java.util.Scanner;
 
-public class Ex07 {
+public class Ex18 {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
-		System.out.println("숫자를 입력하세요");
+		System.out.println("input number:");
 		int num = sc.nextInt();
 		
-		for(int i = 1; i <= num; i++) {
+		for(int x=1; x<=num; x++) {
 			
-			for(int i2=1; i2<=i; i2++) {
-				System.out.print(i);
+			for(int y=num; x<=y; y--) {
+				System.out.print("*");
 			}
 			
 			System.out.println("");
 		} 
-			
-			
-				
 		
-			
-			
-			
-			
+		
+		
 		sc.close();
 	}
-
-		
-	
 }
