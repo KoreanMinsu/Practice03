@@ -5,18 +5,20 @@ import java.util.Scanner;
 public class Ex10 {
 	public static void main(String[] args) {
 		
+		int cNum=0;
 		Scanner sc = new Scanner(System.in);
 		System.out.println("숫자를 입력하슈");
-		System.out.print("숫자: ");
-		int num1 = sc.nextInt();
-		System.out.print("숫자: ");
-		int num2 = sc.nextInt();
-		System.out.print("숫자: ");
-		int num3 = sc.nextInt();
-		System.out.print("숫자: ");
-		int num4 = sc.nextInt();
-		System.out.print("숫자: ");
-		int num5 = sc.nextInt();
+		
+			for(int i=0; i<5; i++) {
+				System.out.print("숫자: ");
+				int num = sc.nextInt();
+				
+				if(num>cNum) {
+					cNum=num;
+				}
+			} 
+			
+		System.out.println("최대값은 " +cNum+ " 입니다.");
 			
 		
 		
