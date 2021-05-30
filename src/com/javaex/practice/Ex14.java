@@ -14,8 +14,8 @@ public class Ex14 {
 			for(int i=1; i<=num; i++) {
 				for(int j=1; j<=i; j--) {
 					
-				}System.out.print(i+"+");
-				
+				}System.out.print("+"+i);
+				//  숫자 하나의 +를 없애는 방법을 모르겠어요!
 			
 			sum = sum+i;
 				
